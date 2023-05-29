@@ -50,8 +50,14 @@ $(function () {
       var hourElementID = ($(this).attr('id'));
       if (hourElementID === hourID){
         console.log(localStorage.getItem("event"))
+        //find related description event and insert text
+        $(this).find('.description').text(localStorage.getItem("event" + ($)(this).attr('id')))
       }
     })
   }
   //
   // TODO: Add code to display the current date in the header of the page.
+  function getDate (){
+    var currentDate = (dayjs().format('dddd MMMM DD YYYY'));
+    console.log(currentDate);
+  }
