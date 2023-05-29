@@ -25,4 +25,5 @@ This repo is publicly accessible.  Installation can be achieved by the following
 * jQuery - https://jquery.com/ 
 * starterCode - https://github.com/coding-boot-camp/crispy-octo-meme 
 
-## Screenshot
+## Screenshot!
+[screengrab-workday-scheduler](https://github.com/vlexaega/hw5-workday-scheduler/assets/132007323/dd19feae-7cfb-4a5a-a1bc-c28a059dd527)
