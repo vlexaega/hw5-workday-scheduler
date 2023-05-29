@@ -60,4 +60,10 @@ $(function () {
   function getDate (){
     var currentDate = (dayjs().format('dddd MMMM DD YYYY'));
     console.log(currentDate);
+    //put this current date into currentDay ID 
+    var currentDayEl = $("#currentDay");
+    currentDayEl.text(currentDate);
   }
+
+  getDate();
+  getLocalStorageValues();
